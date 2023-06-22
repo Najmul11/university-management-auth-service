@@ -14,8 +14,8 @@
 
   "rules": {
     "no-unused-vars": "error",
-    // "no-console": "error",
-    "no-undef": "error",
+    "no-console": "error",
+    // "no-undef": "error",
     "no-unused-expressions": "error",
     "no-unreachable": "error",
     // "consistent-type-definations": ["error", "type"],
