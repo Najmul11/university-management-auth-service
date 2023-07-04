@@ -1,0 +1,4 @@
+Mon Jul 03 2023 17:35 [right meow!] error: AcademicSemester validation failed: endMonth: Path `endMonth` is required., startMonth: Path `startMonth` is required., code: Path `code` is required., year: Path `year` is required., title: Path `title` is required.
+Mon Jul 03 2023 17:45 [right meow!] error: Failed to connect querySrv ETIMEOUT _mongodb._tcp.cluster0.u5tj5cw.mongodb.net
+Mon Jul 03 2023 17:57 [right meow!] error: Failed to create academic semester
+Mon Jul 03 2023 17:58 [right meow!] error: Failed to create academic semester

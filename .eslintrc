@@ -5,7 +5,6 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint"],
-  // HERE
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -15,7 +14,7 @@
   "rules": {
     "no-unused-vars": "error",
     "no-console": "error",
-    // "no-undef": "error",
+    "no-undef": "error",
     "no-unused-expressions": "error",
     "no-unreachable": "error",
     // "consistent-type-definations": ["error", "type"],
@@ -25,6 +24,10 @@
 
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "node": true
+  },
+  "globals": {
+    "process": "readonly"
   }
 }
